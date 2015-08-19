@@ -11,12 +11,12 @@ window.onload = function() {
        // instantiate map object from Leaflet
        var mapObj = new L.Map(map, {  // <-- Replace map_id with your #id for rendering
            center: [40.714249, -73.957407], // New York
-           zoom: 8 // zoom projection to adjust starting point zoom
+           zoom: 11 // zoom projection to adjust starting point zoom
        });
 
 
        // add basemap tiles
-       L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+       L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png', {
            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
        }).addTo(mapObj);
 
