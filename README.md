@@ -22,7 +22,6 @@ We also have a "Data Library" full of datasets that you can mashup with your own
 
 ![Bike Map](https://raw.githubusercontent.com/auremoser/gdi-webmap/master/img/bikemap.jpg)
 
-
 **Building Data**
 
 ![Building Map](https://raw.githubusercontent.com/auremoser/gdi-webmap/master/img/buildingmap.jpg)
